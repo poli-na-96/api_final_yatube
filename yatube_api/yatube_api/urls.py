@@ -7,9 +7,7 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/', include('djoser.urls')),
-    path('api/v1/', include('djoser.urls.jwt')),
-    path('api/', include('api.urls', namespace='api')),
+    path('api/', include('api.urls', namespace='api_v1')),
     path(
         'redoc/',
         TemplateView.as_view(template_name='redoc.html'),
