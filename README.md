@@ -73,4 +73,6 @@ Copy
 "following": "string"
 }
 
+**Язык:** Python 3.9.10
+
 **Стек технологий:** python, django, SQlite, rest api, jwt, git
