@@ -13,12 +13,15 @@ Cоздать и активировать виртуальное окружен�
 
 python3 -m venv venv
 source venv/Scripts/activate
+
 Установить зависимости из файла requirements.txt:
 
 pip install -r requirements.txt
+
 Выполнить миграции:
 
 python manage.py migrate
+
 Запустить проект:
 
 python manage.py runserver
