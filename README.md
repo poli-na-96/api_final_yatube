@@ -4,26 +4,21 @@
 В данном проекте представлен backend api yatube, то есть это внутренняя часть продукта, которая находится на сервере и скрыта от пользователей. 
 
 **Как запустить проект:**
-Клонировать репозиторий и перейти в него в командной строке:
-
+Клонировать репозиторий и перейти в него в командной строке: 
 git clone git@github.com:poli-na-96/api_final_yatube.git
 cd api_final_yatube
 
-Cоздать и активировать виртуальное окружение:
-
+Cоздать и активировать виртуальное окружение: 
 python3 -m venv venv
 source venv/Scripts/activate
 
 Установить зависимости из файла requirements.txt:
-
 pip install -r requirements.txt
 
 Выполнить миграции:
-
 python manage.py migrate
 
 Запустить проект:
-
 python manage.py runserver
 
 **Примеры запросов:**
